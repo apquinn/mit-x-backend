@@ -1,0 +1,21 @@
+{
+  "name": "andrew_quinn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http_server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon http_server.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "firebase": "^10.8.0",
+    "firebase-admin": "^12.0.0",
+    "lowdb": "^7.0.1",
+    "nodemon": "^3.0.3"
+  }
+}
